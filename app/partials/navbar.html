@@ -1,0 +1,25 @@
+<nav class="navbar navbar-inverse navbar-static-top ">
+ <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">ng Open Weather</a>
+    </div>
+	<div id="locInput" class="divHide">
+      <form class="navbar-form navbar-left" ng-submit="getWeather(location)">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="City..." ng-model="location.q">
+        </div> 
+		<div class="form-group">
+          <input type="number" class="form-control" placeholder="Zip...." ng-model="location.zip">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>

@@ -1,0 +1,89 @@
+.landing{
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url(../landing.jpg);
+    background-repeat: no-repeat;
+}
+.footer{
+    height: 80px;
+	color: #777;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-top: solid;
+    background-image: url(../footer.jpg);
+}
+.footer p{
+	margin: 30px;
+}
+.divHide{
+	visibility:hidden;
+}
+.visible{
+	visibility:visible;
+}
+.weatherInfo{
+	height:575px;
+	border-radius:20px;
+	background-size: 100% 100%;
+    background-image: url(../landing2.jpg);
+    background-repeat: no-repeat;
+}
+.Panel{
+	border-color: black;
+	border-radius:20px;
+	background-color: rgba(0, 0, 0, 0.72);
+}
+.shade{
+	height:500px;
+	margin: 20px;
+    border-radius: 16px;
+	background-color: rgba(221, 221, 221, 0.26);
+}
+.body{
+	color:white;
+}
+.body h1{
+	margin-left:15px;
+	font-size:120px;
+}
+.body h2{
+	    margin-left: 150px;
+		font-size: 90px;
+}
+.icon{
+	width: 55%;
+}
+#greeting{
+	position: absolute;
+    top: 25%;
+    left: 37%;
+    color: white;
+}
+#greeting  h1{
+	font-size: 75px;
+    font-weight: 700;
+    text-shadow: 0px 0px 11px #162965;
+}
+.add-padding{
+	padding: 41px;
+}
+.caption h3{
+	font-size: 55px;
+	color:white;
+}
+.caption .size-66{
+	font-size: 77px;
+	
+}
+.date{
+	font-size: 30px;
+    color: white;
+}
+.thumbnail{
+	    background-color: rgba(132, 79, 154, 0.57);
+		height:304.86px;
+		border:0px;
+}
+.navbar{
+	margin-bottom:0px;
+}
