@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "postinstall": "gulp default",
     "heroku-postbuild": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
