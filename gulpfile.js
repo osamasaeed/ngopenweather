@@ -29,10 +29,8 @@ gulp.task('serve',['copyAll'],function(){
 	return gulp.src(paths.temp)
 	.pipe(webserver({
 		livereload:true,
-		proxies:[{
-			source:'/api',
-			target:'http://localhost:1337'
-		}]
+		port:'80',
+		open:true
 	}));
 });
 
