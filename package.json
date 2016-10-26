@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     
-    "heroku-postbuild": "gulp",
+    "heroku-postbuild": "npm install -g gulp && npm install gulp",
     "start": "gulp"
   },
   "author": "",
