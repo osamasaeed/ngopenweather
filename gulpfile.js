@@ -29,7 +29,7 @@ gulp.task('serve',['copyAll'],function(){
 	return gulp.src(paths.temp)
 	.pipe(webserver({
 		livereload:true,
-		port:'8080'
+		port:(process.env.PORT || 5000)
 	}));
 });
 
