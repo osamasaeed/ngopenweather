@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    
-    "heroku-postbuild": "npm install -g gulp && npm install gulp",
+    "heroku-postbuild": "npm install -g gulp && npm install -g bower && npm install && bower install ",
     "start": "gulp"
   },
   "author": "",
